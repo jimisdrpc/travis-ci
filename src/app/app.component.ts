@@ -8,7 +8,7 @@ import { TrafficLightService, LIGHT_STATES } from './traffic-light.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Traffic Signal App';
+  title = 'Traffic Signal App changed';
   trafficLightState: string;
 
   constructor(private trafficService: TrafficLightService) {
